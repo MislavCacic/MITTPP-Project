@@ -1,4 +1,4 @@
-# README – Selenium Testiranje za DemoBlaze
+# README – Selenium Testiranje za Swag Labs web trgovinu
 
 ## Pregled
 Projekt sadrži automatizirane **Selenium** testove za web stranicu **Swag Labs**. 
@@ -8,10 +8,10 @@ Skripta testira funkcionalnosti stranice: prijava korisnika (defaultni podaci ko
 [Swag Labs](https://www.saucedemo.com/) je **dummy web trgovina** namijenjena za testiranje i vježbanje automatizacije testiranja. Stranica simulira funkcionalnosti e-trgovine, uključujući:
 - Registraciju i prijavu korisnika
 - Pregled proizvoda
+- Sortiranje proizvoda
 - Dodavanje proizvoda u košaricu
 - Uklanjanje proizvoda iz košarice
 - Proces kupnje (Unos podataka za dostavu)
-- Sortiranje proizvoda
 
 ## Korišteni alati
 Za izradu i izvođenje testova korišteni su alati:
@@ -22,7 +22,7 @@ Za izradu i izvođenje testova korišteni su alati:
 
 ## Napomena
 Koristi webdriver_manager za automatsko preuzimanje i postavljanje ChromeDrivera. Razlog tome jest što sam kod pisao na MacOS-u međutim htio sam i mogućnost pokretanja na Windows OS.
-Ne koristi platform-specifične putanje, odnosno koristi se Service(ChromeDriverManager().install()) koji se automatski brine o tome.
+Ne koristim platform-specifične putanje, odnosno koristi se Service(ChromeDriverManager().install()) koji se automatski brine o tome.
 
 ## Preduvjeti
 Prije pokretanja skripte potrebno je instalirati **Selenium** pomoću sljedeće naredbe:
