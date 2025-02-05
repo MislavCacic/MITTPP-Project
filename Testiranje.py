@@ -78,12 +78,14 @@ def testRemoveFromCart(driver):
 
     print("Remove from cart test passed!")
 
-#Povratak na main page
+#Povratak na main/home page
 def testReturnToHome(driver):
     time.sleep(2)
+
     continueShoppingButton = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.ID, "continue-shopping"))
     )
+    
     continueShoppingButton.click()
     time.sleep(1)
 
