@@ -1,6 +1,7 @@
 # README – Selenium Testiranje za Swag Labs web trgovinu
 
 ## Pregled:
+Projektni zadatak iz kolegija: Metode i tehnike testiranja programske podrške
 Projekt sadrži automatizirane **Selenium** testove za web stranicu **Swag Labs**. 
 Skripta testira funkcionalnosti stranice: prijava korisnika (defaultni podaci koji su dani na stranici), dodavanje prvog itema u košaricu, odlazak u košaricu, uklanjanje itema iz košarice, vraćanje na početnu stranicu i odjavu korisnika sa stranice.
 
